@@ -1,0 +1,38 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.movies {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movies li {
+  list-style: none;
+}
+
+.movies li h3,
+.movies li p {
+  margin: 0;
+}
+
+.movies li h3 {
+  font-size: 1.5rem;
+}
+
+.movies li img {
+  aspect-ratio: 9/12;
+  display: block;
+  background-color: #c0c0c0;
+}
